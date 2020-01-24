@@ -1,0 +1,19 @@
+1. Keywords used in BDD
+
+given()-set cookies ,  add authentication , add parameters , set headers info etc...
+
+when()-get, post , put , delete - the actual call
+
+then()- validation status code , extract response , extract headers cookies & response body...
+
+
+
+2. Validations:
+
+Status Code
+
+Status Line
+
+Response Body
+
+header
