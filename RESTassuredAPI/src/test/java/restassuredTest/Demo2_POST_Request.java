@@ -53,6 +53,7 @@ public class Demo2_POST_Request {
 			.and()
 			.body("SuccessCode", equalTo("OPERATION_SUCCESS"))		//Validating SuccessCode
 			.and()
-			.body("Message", equalTo("Operation completed successfully"));	//Validating Message
+			.body("Message", equalTo("Operation completed successfully"))	//Validating Message
+			.log().all();													//Will print all the changes
 	}
 }

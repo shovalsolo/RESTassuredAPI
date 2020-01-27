@@ -30,6 +30,7 @@ public class Demo1_GET_Request {
 			.statusCode(200)
 			.statusLine("HTTP/1.1 200 OK")
 			.assertThat().body("City", equalTo("Hyderabad"))
+			.log().all()														//Will print all the changes
 			.header("Content-Type", "application/json");
 	}
 }
