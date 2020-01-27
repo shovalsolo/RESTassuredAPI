@@ -32,5 +32,4 @@ public class Demo1_GET_Request {
 			.assertThat().body("City", equalTo("Hyderabad"))
 			.header("Content-Type", "application/json");
 	}
-
 }
