@@ -2,16 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2240" started-at="2020-01-24T17:36:54 EST" finished-at="2020-01-24T17:36:56 EST">
+  <suite name="Default suite" duration-ms="2592" started-at="2020-01-27T14:36:42 EST" finished-at="2020-01-27T14:36:44 EST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2240" started-at="2020-01-24T17:36:54 EST" finished-at="2020-01-24T17:36:56 EST">
-      <class name="restassuredTest.Demo1_GET_Request">
-        <test-method status="PASS" signature="getWeatherDetails()[pri:0, instance:restassuredTest.Demo1_GET_Request@131276c2]" name="getWeatherDetails" duration-ms="2185" started-at="2020-01-24T17:36:54 EST" finished-at="2020-01-24T17:36:56 EST">
+    <test name="Default test" duration-ms="2592" started-at="2020-01-27T14:36:42 EST" finished-at="2020-01-27T14:36:44 EST">
+      <class name="restassuredTest.Demo2_POST_Request">
+        <test-method status="PASS" signature="postData()[pri:0, instance:restassuredTest.Demo2_POST_Request@2d6eabae]" name="postData" is-config="true" duration-ms="425" started-at="2020-01-27T14:36:42 EST" finished-at="2020-01-27T14:36:42 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getWeatherDetails -->
-      </class> <!-- restassuredTest.Demo1_GET_Request -->
+        </test-method> <!-- postData -->
+        <test-method status="PASS" signature="testPost()[pri:0, instance:restassuredTest.Demo2_POST_Request@2d6eabae]" name="testPost" duration-ms="2122" started-at="2020-01-27T14:36:42 EST" finished-at="2020-01-27T14:36:44 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPost -->
+      </class> <!-- restassuredTest.Demo2_POST_Request -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
