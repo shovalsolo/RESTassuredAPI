@@ -15,18 +15,18 @@ public class RestUtils {
 	}
 	
 	public static String getUserName() {								//Will create a random string + UserName
-		String generatedString = RandomStringUtils.randomAlphabetic(1);
+		String generatedString = RandomStringUtils.randomAlphabetic(3);
 		return ("John" + generatedString);
 	}
 	
-	public static String getEmail() {									//Will create a random string + Email
-		String generatedString = RandomStringUtils.randomAlphabetic(1);
+	public static String getPassword() {								//Will create a random string + Email
+		String generatedString = RandomStringUtils.randomAlphabetic(3);
+		return ("John" + generatedString);
+	}
+	
+	public static String getEmail() {									//Will create a random string + Password
+		String generatedString = RandomStringUtils.randomAlphabetic(3);
 		return (generatedString+ "gmail.com");
-	}
-	
-	public static String getPassword() {								//Will create a random string + Password
-		String generatedString = RandomStringUtils.randomAlphabetic(1);
-		return ("John" + generatedString);
 	}
 	
 	public static String empName() {									//Will create a random string + empName
@@ -34,7 +34,7 @@ public class RestUtils {
 		return ("John" + generatedString);
 	}
 	
-	public static String empSal() {									//Will create a random empSal
+	public static String empSal() {										//Will create a random empSal
 		String generatedString = RandomStringUtils.randomAlphabetic(1);
 		return (generatedString);
 	}
