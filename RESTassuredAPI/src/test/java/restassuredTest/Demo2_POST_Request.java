@@ -14,6 +14,19 @@ package restassuredTest;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
 public class Demo2_POST_Request {
+	
+	@BeforeClass
+	public void postData() {
+		
+	}
+	
+	@Test
+	public void testPost() {
+		
+	}
 
 }
