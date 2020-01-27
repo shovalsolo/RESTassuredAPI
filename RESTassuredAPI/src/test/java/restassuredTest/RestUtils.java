@@ -35,14 +35,12 @@ public class RestUtils {
 	}
 	
 	public static String empSal() {										//Will create a random empSal
-		String generatedString = RandomStringUtils.randomAlphabetic(1);
+		String generatedString = RandomStringUtils.randomNumeric(5);
 		return (generatedString);
 	}
 	
 	public static String empAge() {									//Will create a random empAge
-		String generatedString = RandomStringUtils.randomAlphabetic(1);
+		String generatedString = RandomStringUtils.randomNumeric(2);
 		return (generatedString);
 	}
-
-
 }

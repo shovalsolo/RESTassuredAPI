@@ -46,7 +46,7 @@ public class Demo2_POST_Request {
 			.body(map)												//Passing the HashMap data
 			
 		.when()
-			.post()													//Type off call post
+			.post()													//Type of call post
 		
 		.then()
 			.statusCode(201)										//Validating 201 created
